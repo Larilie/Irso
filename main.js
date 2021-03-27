@@ -1,6 +1,6 @@
 function getAllRequest()
 {
-	axios.get('http://localhost:8080/item')
+	axios.get('https://gotest27.herokuapp.com/susana')
 	  .then(function (response) {
 		console.log(response);
 	  })
