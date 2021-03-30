@@ -1,6 +1,6 @@
 function getAllRequest()
 {
-	axios.get('https://gotest27.herokuapp.com/susana')
+	axios.get('https://gotest27.herokuapp.com/test')
 	  .then(function (response) {
 		console.log(response);
 	  })
